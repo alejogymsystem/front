@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Producto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body onload="editarProducto()">
+    <div class="container">
+        <form>
+            <div class="form-group">
+            <label for="nombreProducto">Nombre Producto</label>
+            <input type="text" class="form-control" id="nombreProducto" aria-describedby="nombreHelp" placeholder="Ingrese Nombre">
+            <small id="nombreProductoHelp" class="form-text text-muted"><br></small>
+            </div>
+            <div class="form-group">
+            <label for="precioProducto">Precio Producto</label>
+            <input type="text" class="form-control" id="precioProducto" placeholder="Precio Producto">
+            <small id="precioProductoHelp" class="form-text text-muted"><br></small>
+            </div>  
+            <div class="form-group">
+                <label for="ivaProducto">iva Producto</label>
+                <input type="text" class="form-control" id="ivaProducto" placeholder="ivaProducto">
+                <small id="ivaProductoHelp" class="form-text text-muted"><br></small>
+            </div>
+            <div class="form-group">
+                <label for="Existencias">Existencias</label>
+                <input type="text" class="form-control" id="Existencias" placeholder="ivaProducto">
+                <small id="ExistenciasHelp" class="form-text text-muted"><br></small>
+            </div>  
+
+            
+            <button type="button" class="btn btn-primary" id="btnActualizar">Actualizar</button>
+             
+            <button type="button" class="btn btn-danger" id="btnCancelar">Cancelar</button>
+        </form>
+       </div>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+       <script src="js/funcionesProductos.js"></script>
+    </body>
+
+</html>
