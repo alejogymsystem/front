@@ -1,5 +1,5 @@
-//const url = 'https://api-2670689.onrender.com/usuario'
-const url = 'http://localhost:8081/producto'
+const url = 'https://front-pcje.onrender.com/producto'
+//const url = 'http://localhost:8081/producto'
 
 const listarProductos = async() => {
     //Objeto del html donde se deslegará la información
